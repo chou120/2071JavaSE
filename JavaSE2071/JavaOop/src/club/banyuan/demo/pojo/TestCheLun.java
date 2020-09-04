@@ -8,12 +8,12 @@ package club.banyuan.demo.pojo;
 public class TestCheLun {
 
   public static void main(String[] args) {
-    CheLun cheLun = new CheLun();
-    cheLun.setName("李四");
-    System.out.println(cheLun.getName());
+//    CheLun cheLun = new CheLun();
+//    cheLun.setName("李四");
+//    System.out.println(cheLun.getName());
+//    System.out.println(cheLun.toString());
 
-    System.out.println(cheLun.toString());
+
 
   }
-
 }

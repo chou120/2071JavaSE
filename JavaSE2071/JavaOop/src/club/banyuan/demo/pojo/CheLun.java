@@ -7,45 +7,60 @@ package club.banyuan.demo.pojo;
  */
 public class CheLun {
 
-  private  String  name="张三";
-  private  String color;  //默认值是null   int  0  double 0.0  char  '\u0000'  boolean  false
-  private final double redio=3.14;
+  private   String  CheId;
+  private   String  texture;
+  private   double redio;
+  private   double price;
+  private   String   CheLunBrand;
 
-  public  String   getStr(){
-    final String  username="张三"; //请问局部变量username 有默认值嘛
-    return username;
+  public String getCheId() {
+    return CheId;
+  }
+
+  public void setCheId(String cheId) {
+    CheId = cheId;
+  }
+
+  public String getTexture() {
+    return texture;
+  }
+
+  public void setTexture(String texture) {
+    this.texture = texture;
   }
 
   public double getRedio() {
     return redio;
   }
 
-  public String getName() {
-    return name;
-  }
-  public String getColor() {
-    return color;
+  public void setRedio(double redio) {
+    this.redio = redio;
   }
 
-  public void setName(String name) {  //
-    this.name = name;  //表示当前对象
-  }
-  public void setColor(String color) {
-   this.color = color;
+  public double getPrice() {
+    return price;
   }
 
-//  public String showInfo(){  //所有的功能性代码里面  最好不要出现输出语句
-//   // System.out.println("----");
-//    return "";
-//  }
+  public void setPrice(double price) {
+    this.price = price;
+  }
 
+  public String getCheLunBrand() {
+    return CheLunBrand;
+  }
 
-  @Override  //重写
+  public void setCheLunBrand(String cheLunBrand) {
+    CheLunBrand = cheLunBrand;
+  }
+
+  @Override
   public String toString() {
     return "CheLun{" +
-        "name='" + name + '\'' +
-        ", color='" + color + '\'' +
+        "CheId='" + CheId + '\'' +
+        ", texture='" + texture + '\'' +
         ", redio=" + redio +
+        ", price=" + price +
+        ", CheLunBrand='" + CheLunBrand + '\'' +
         '}';
   }
 }

@@ -1,5 +1,6 @@
 package club.banyuan.demo.pojo;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -47,13 +48,24 @@ public class Component {
     return texture;
   }
 
-  /**
+  @Override
+  public String toString() {
+    return "Component{" +
+        "length=" + length +
+        ", redio=" + redio +
+        ", color='" + color + '\'' +
+        ", texture='" + texture + '\'' +
+        ", componentName='" + componentName + '\'' +
+        ", textureArray=" + Arrays.toString(textureArray) +
+        '}';
+  }
+/**
    * 显示成员信息的功能
    */
-  public   void  showInfo(){
-    System.out.println("长度:"+length+",半径:"+redio+",颜色:"+color+",材质:"+texture+
-        ",名称:"+componentName);
-  }
+//  public   void  showInfo(){
+//    System.out.println("长度:"+length+",半径:"+redio+",颜色:"+color+",材质:"+texture+
+//        ",名称:"+componentName);
+//  }
   /**
    * 检查赋值是否满足条件
    */
@@ -65,7 +77,7 @@ public class Component {
       }
   }
 }
-class   Test{
+/*class   Test{
   public static void main(String[] args) {
     // 类名  变量名=new  类名();
     Component component = new Component();  //创建了一个实体对象  根据Component模板创建的
@@ -89,6 +101,6 @@ class   Test{
 
 
   }
-}
+}*/
 
 
