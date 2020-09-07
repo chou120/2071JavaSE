@@ -10,7 +10,6 @@ import club.banyuan.demo.pojo.Component;
  */
 public class TestCar {
 
-
   public static void main(String[] args) {
     CheLun cheLun = new CheLun();
     cheLun.setCheId("1001");
@@ -23,7 +22,6 @@ public class TestCar {
     component.choiceTexture("水泥");
     component.SetColor("灰色");
 
-
     Car car = new Car();
     car.setBrand("大奔");
     car.setCardId("9527");
@@ -32,9 +30,7 @@ public class TestCar {
     car.setCheLun(cheLun);
     car.setEngine(component);
     car.setColor("灰褐色");
-
     System.out.println(car.toString());
-
   }
 
   /**
@@ -47,9 +43,6 @@ public class TestCar {
    *  增加难度:每个人都有上司
    *
    *      完成:对 人和部门 所在的对象 增删改查
-   *
-   *
-   *
    */
 
 
