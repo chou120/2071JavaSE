@@ -1,5 +1,6 @@
 package club.banyuan.system;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import sun.jvm.hotspot.oops.Array;
 
@@ -24,20 +25,17 @@ public class Demo {
     int [] arr={3,4,5};
     int [] arr1={31,123,112,1231,11};
 
-    System.arraycopy(arr, 1,arr1 ,2 ,2 );  // 思考:能不能使用这种方式 进行数组扩容
-
+   /* System.arraycopy(arr, 0,arr ,2 ,2 );  // 思考:能不能使用这种方式 进行数组扩容
     System.out.println(Arrays.toString(arr1));
-
     Person person = new Person();
     person.setName("wangwu");
+    person=null;*/
+    //System.gc();  手动调用垃圾回收  程序员不需要做这个操作
 
-    person=null;
-
-    //System.gc();
-
-
-
-
+//    int[] ints = new int[arr.length + 1];
+//    System.arraycopy(arr, 0, ints, 0, arr.length);
+//    ints[arr.length]=12;
+//    System.out.println(Arrays.toString(ints));
 
 
 
