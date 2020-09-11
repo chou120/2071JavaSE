@@ -1,4 +1,4 @@
-package club.banyuan.demo;
+package club.banyuan.abstractDemo;
 
 /**
  * @author sanye
@@ -9,6 +9,12 @@ public abstract class Weapon {
 
   private   String   name;
 
+  public  static final   String  felid="属性";
+
+  private static void  method(){
+
+  }
+
   public String getName() {
     return name;
   }
@@ -17,12 +23,16 @@ public abstract class Weapon {
     this.name = name;
   }
 
+
   public Weapon(String name) {
     this.name = name;
   }
+
   public Weapon() {
+    System.out.println("我是武器的无参构造器...");
   }
 
+  //抽象方法
   public abstract void  attack(Person person1,Person person2);
   //{
 //    int attack = person1.attack();//自身攻击力
@@ -30,5 +40,7 @@ public abstract class Weapon {
 //    person2.setHp(hp-attack);
 //
 //  }
+
+
 
 }

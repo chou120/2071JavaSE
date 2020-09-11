@@ -1,4 +1,4 @@
-package club.banyuan.demo;
+package club.banyuan.abstractDemo;
 
 import java.util.Random;
 
@@ -9,7 +9,7 @@ import java.util.Random;
  */
 public class Person {
 
-  private int  hp=10000; //初始血量
+  private int  hp=1000; //初始血量
   private String name;
   private Weapon  weapon; //人员需要有武器
   private Random random=new Random();
