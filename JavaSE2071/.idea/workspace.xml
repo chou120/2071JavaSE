@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="多态结束课堂作业">
+      <change afterPath="$PROJECT_DIR$/.idea/JavaSE2071.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPolyGame/src/club/banyuan/demo/TestGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPolyGame/src/club/banyuan/demo/TestGame.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gywAMJqxWpiJ4HjyfDbJ4S2jZs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2720588" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="club.banyuan.overrideEquals" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="club.banyuan.interfaceDemo3" />
+      <recent name="club.banyuan.abstractDemo" />
+      <recent name="club.banyuan.eat" />
+      <recent name="club.banyuan.modifier.bao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
+      <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstract" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestGame">
+    <configuration name="TestGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.TestGame" />
+      <module name="JavaSE2071" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="" />
+      <created>1599099995360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599099995360</updated>
+      <workItem from="1599100001325" duration="12820000" />
+      <workItem from="1599183785054" duration="4783000" />
+      <workItem from="1599189411014" duration="540000" />
+      <workItem from="1599190161643" duration="24608000" />
+      <workItem from="1599533322160" duration="4927000" />
+      <workItem from="1599543740734" duration="15586000" />
+      <workItem from="1599636470864" duration="29305000" />
+      <workItem from="1599812869327" duration="199000" />
+      <workItem from="1599813083411" duration="64000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1599190271937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599190271938</updated>
+    </task>
+    <task id="LOCAL-00002" summary="对象更新">
+      <created>1599201913194</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599201913194</updated>
+    </task>
+    <task id="LOCAL-00003" summary="封装练习">
+      <created>1599204293416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599204293416</updated>
+    </task>
+    <task id="LOCAL-00004" summary="构造器和静态">
+      <created>1599467328913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599467328913</updated>
+    </task>
+    <task id="LOCAL-00005" summary="常用类的使用">
+      <created>1599535238370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599535238370</updated>
+    </task>
+    <task id="LOCAL-00006" summary="常用类的使用">
+      <created>1599536828397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599536828397</updated>
+    </task>
+    <task id="LOCAL-00007" summary="常用类的使用">
+      <created>1599536854067</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599536854067</updated>
+    </task>
+    <task id="LOCAL-00008" summary="常用类的使用2">
+      <created>1599552393787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599552393788</updated>
+    </task>
+    <task id="LOCAL-00009" summary="常用类的使3">
+      <created>1599632235194</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599632235194</updated>
+    </task>
+    <task id="LOCAL-00010" summary="继承1">
+      <created>1599637995909</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599637995909</updated>
+    </task>
+    <task id="LOCAL-00011" summary="多态">
+      <created>1599795805483</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599795805483</updated>
+    </task>
+    <task id="LOCAL-00012" summary="多态结束课堂作业">
+      <created>1599811873938</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599811873939</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="对象更新" />
+    <MESSAGE value="封装练习" />
+    <MESSAGE value="构造器和静态" />
+    <MESSAGE value="常用类的使用" />
+    <MESSAGE value="常用类的使用2" />
+    <MESSAGE value="常用类的使3" />
+    <MESSAGE value="继承1" />
+    <MESSAGE value="多态" />
+    <MESSAGE value="多态结束课堂作业" />
+    <MESSAGE value="游戏更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="游戏更新" />
+  </component>
+</project>

@@ -16,7 +16,7 @@ public class TestGame {
    *  额外功能  闪避
    * 人物 有护甲  护甲初始不一样
    *
-   * @param args
+   * @param args    测试
    *
    */
 
