@@ -12,10 +12,11 @@ public   class Person {
    * 修饰成员变量  变量不能被修改 变量在使用前一定是有值的
    */
   private  final  String  name="常量值";
-
 //  public final   void method(){
 //    System.out.println("final ----->>>>> method");
 //  }
+
+
 
   public final   void method(final int num){
    // num=213;
@@ -28,9 +29,6 @@ public   class Person {
     cat.setName("王五");
     System.out.println("final ----->>>>> method"+cat.getName());
   }
-
-
-
 
 
 
