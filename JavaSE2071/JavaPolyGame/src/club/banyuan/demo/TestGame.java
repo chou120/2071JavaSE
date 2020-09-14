@@ -19,17 +19,17 @@ public class TestGame {
    * @param args    测试
    *
    */
-
   public static void main(String[] args) {
     Person person1 = new Person("吕布",new  HalberdWeapon());
     Person person2 = new Person("关羽",new Broadsword());
-
     while(person1.getHp()>0 && person2.getHp()>0){
       person1.attack(person2);
      if(person2.getHp()>0){
        person2.attack(person1);
      }
     }
+
+
     if(person1.getHp()>0){
       System.out.println(person1.getName()+"还活着,血量还剩:"+person1.getHp());
     }else{
