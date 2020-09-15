@@ -15,7 +15,8 @@ import java.util.function.Supplier;
 public class Demo1 {
 
   /**
-   * Function<T,R>:函数型接口 定义了 R apply(T t) 抽象方法，它接受一个 泛型T的对象， 并返回一个泛型R的对象。如果需要将接收对象转换成其它对象可以使用
+   * Function<T,R>:函数型接口 定义了 R apply(T t) 抽象方法，它接受一个 泛型T的对象， 并返回一个泛型R的对象。
+   * 如果需要将接收对象转换成其它对象可以使用
    *
    * @param args Consumer<T> : 消费型接口 void accept(T t); Consumer：定义了 void accept(T t)
    *             抽象方法，需要访问某对象并对其进行某些操作时可以使用
