@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaInnerClass/JavaInnerClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaInnerClass/src/club/banyuan/anonymity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaInnerClass/src/club/banyuan/demo/Inner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaInnerClass/src/club/banyuan/inner/OriginalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaInnerClass/src/club/banyuan/methodInnerClass/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaInnerClass/src/club/banyuan/staticInner/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaInnerOver/JavaInnerOver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaInnerOver/src/club/banyuan/demo/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaInnerOver/src/club/banyuan/function/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaInnerOver/src/club/banyuan/function/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaLambda/JavaLambda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambda/Demo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaPolyGame/src/club/banyuan/demo/TestGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPolyGame/src/club/banyuan/demo/TestGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaInnerClass/JavaInnerClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaInnerClass/src/club/banyuan/staticInner/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaInnerClass/src/club/banyuan/staticInner/Outer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2720588" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -76,13 +77,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCar">
-    <configuration name="OriginalClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.inner.OriginalClass" />
-      <module name="JavaInnerClass" />
+  <component name="RunManager" selected="Application.Demo1">
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.lambda.Demo1" />
+      <module name="JavaLambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.inner.*" />
+          <option name="PATTERN" value="club.banyuan.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OuterInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.OuterInner" />
+      <module name="JavaInnerOver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestOuter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.staticInner.TestOuter" />
-      <module name="JavaInnerClass" />
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.function.TestDemo" />
+      <module name="JavaInnerOver" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.staticInner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestOuter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.inner.TestOuter" />
-      <module name="JavaInnerClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.banyuan.inner.*" />
+          <option name="PATTERN" value="club.banyuan.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.OuterInner" />
         <item itemvalue="Application.TestCar" />
         <item itemvalue="Application.TestOuterInner" />
-        <item itemvalue="Application.TestOuter (1)" />
-        <item itemvalue="Application.TestOuter" />
-        <item itemvalue="Application.OriginalClass" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +183,8 @@
       <workItem from="1599543740734" duration="15586000" />
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
-      <workItem from="1599813083411" duration="10198000" />
+      <workItem from="1599813083411" duration="17320000" />
+      <workItem from="1600139108956" duration="584000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -275,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599813168201</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="InnerClass">
+      <created>1600072174256</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600072174257</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +315,7 @@
     <MESSAGE value="多态" />
     <MESSAGE value="多态结束课堂作业" />
     <MESSAGE value="游戏更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="游戏更新" />
+    <MESSAGE value="InnerClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="InnerClass" />
   </component>
 </project>

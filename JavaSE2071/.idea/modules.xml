@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaInnerClass/JavaInnerClass.iml" filepath="$PROJECT_DIR$/JavaInnerClass/JavaInnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaInnerOver/JavaInnerOver.iml" filepath="$PROJECT_DIR$/JavaInnerOver/JavaInnerOver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaLambda/JavaLambda.iml" filepath="$PROJECT_DIR$/JavaLambda/JavaLambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaSE2071.iml" filepath="$PROJECT_DIR$/.idea/JavaSE2071.iml" />
     </modules>
   </component>

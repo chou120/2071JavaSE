@@ -18,7 +18,7 @@ public class Outer {
   static final char sex = '女';
 
   static class Inner {
-    private int number = 12;
+     int number = 12;
     static String name = "张三";
     static final char sex = '男';
 
@@ -36,7 +36,7 @@ class TestOuter {
     Outer.Inner inner = new Outer.Inner();
     inner.showInfo(); //调用静态内部类的 非静态成员
     Outer.Inner.method();
-    System.out.println(Outer.Inner.name);
+    System.out.println(Outer.Inner.name+inner.number);
 
   }
 }
