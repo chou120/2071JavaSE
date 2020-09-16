@@ -1,14 +1,10 @@
 package club.banyuan.enum2;
 
-import com.sun.tools.javah.Gen;
-
 /**
  * @author sanye
  * @version 1.0
  * @date 2020/9/16 11:04 上午
  */
-
-
 enum Gender {
   FEMALE("女的"), MALE("男的"), UNKNOW("未知的"), NOTMALEN_NOEFEMALE("人妖");
 
@@ -17,7 +13,6 @@ enum Gender {
   Gender(String genderDesc) {
     this.genderDesc = genderDesc;
   }
-
 
   public String toString() {
     return genderDesc;
