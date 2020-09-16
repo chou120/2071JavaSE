@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambda3/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambdaTest.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaEnum/src/club/banyuan/enum1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaEnum/src/club/banyuan/enum1/EnumDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaEnum/src/club/banyuan/enum2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambda4/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambda2/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambda2/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambda3/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLambda/src/club/banyuan/lambda3/Demo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +74,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.lambda3.Demo" />
-      <module name="JavaLambda" />
+  <component name="RunManager" selected="Application.TestPerson">
+    <configuration name="Day" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.enum1.Day" />
+      <module name="JavaEnum" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.lambda3.*" />
+          <option name="PATTERN" value="club.banyuan.enum1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +88,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.lambda2.Demo1" />
-      <module name="JavaLambda" />
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.enum1.Demo" />
+      <module name="JavaEnum" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.lambda2.*" />
+          <option name="PATTERN" value="club.banyuan.enum1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.enum1.EnumDemo3" />
+      <module name="JavaEnum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.enum1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.enum1.TestColor" />
+      <module name="JavaEnum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.enum1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.enum2.TestPerson" />
+      <module name="JavaEnum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.enum2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +154,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
-      <item itemvalue="Application.Demo1" />
-      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.Day" />
+      <item itemvalue="Application.EnumDemo3" />
+      <item itemvalue="Application.TestColor" />
+      <item itemvalue="Application.TestPerson" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.TestPerson" />
+        <item itemvalue="Application.TestColor" />
+        <item itemvalue="Application.EnumDemo3" />
+        <item itemvalue="Application.Day" />
+        <item itemvalue="Application.Demo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +189,7 @@
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
-      <workItem from="1600139108956" duration="10992000" />
+      <workItem from="1600139108956" duration="18578000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -255,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600151328992</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="lambda3">
+      <created>1600159559807</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600159559807</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +344,7 @@
     <MESSAGE value="InnerClass" />
     <MESSAGE value="lambda1" />
     <MESSAGE value="lambda2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda2" />
+    <MESSAGE value="lambda3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda3" />
   </component>
 </project>

@@ -13,13 +13,15 @@ public class Demo {
 
   /**
    * 作业: BiFunction：定义 R apply(T t, U u) 抽象方法，接收t和u参数，返回R对象，如果需要两个对象中的某些值来组装成另一个对象，
-   * 可以使用。我把它看成Function的神级版 public static <T, U, R> R biFunction(T t,U u,BiFunction<T, U, R>
-   * biFunction){ return biFunction.apply(t, u); }
+   * 可以使用。我把它看成Function的神级版
+   * public static <T, U, R> R biFunction(T t,U u,BiFunction<T, U, R> biFunction){
+   *  return biFunction.apply(t, u);
+   * }
    * <p>
    * <p>
    * <p>
-   * BiConsumer：定义了 void accept(T t, U u) 抽象方法，我把它看成Consumer的神级版 public static <T, U> void
-   * biConsumer(T t, U u, BiConsumer<T, U> biConsumer) { biConsumer.accept(t, u); }
+   * BiConsumer：定义了 void accept(T t, U u) 抽象方法，我把它看成Consumer的神级版
+   * public static <T, U> void biConsumer(T t, U u, BiConsumer<T, U> biConsumer) { biConsumer.accept(t, u); }
    * <p>
    * <p>
    * <p>
@@ -88,13 +90,11 @@ public class Demo {
 
 @FunctionalInterface
 interface StringFunc {
-
   String func(String n);
 }
 
 
 class MyStringOps {
-
 
   //静态方法： 反转字符串
   public static String strReverse(String str) {
@@ -105,9 +105,7 @@ class MyStringOps {
     return result;
   }
 
-
   public String getString(String string) {
-
     return string.toUpperCase();
   }
 
