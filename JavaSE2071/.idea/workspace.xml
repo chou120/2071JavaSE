@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/con/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/gen/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/CheckTrueOrFalse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/CompareDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/LeatherShoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Shoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/SportShoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/作业.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/streamDemo/StreamAPIDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/demo4/GenMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/demo4/GenMethod.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo (1)">
+  <component name="RunManager" selected="Application.StreamAPIDemo">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="club.banyuan.gen.Demo" />
       <module name="JavaCollection" />
@@ -103,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="club.banyuan.con.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.streamDemo.StreamAPIDemo" />
+      <module name="JavaCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.streamDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShoe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.prectice.TestShoe" />
-      <module name="JavaGen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.banyuan.demo.prectice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 8.5.49" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.49" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -163,19 +151,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
-      <item itemvalue="Application.TestShoe" />
       <item itemvalue="Application.TestCompareDemo" />
       <item itemvalue="Application.TestDistance" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.StreamAPIDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamAPIDemo" />
         <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.TestDistance" />
         <item itemvalue="Application.TestCompareDemo" />
-        <item itemvalue="Application.TestShoe" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +186,7 @@
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
-      <workItem from="1600139108956" duration="53395000" />
+      <workItem from="1600139108956" duration="58571000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -340,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600328663672</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="泛型高级+集合">
+      <created>1600399301257</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600399301257</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +373,7 @@
     <MESSAGE value="枚举类" />
     <MESSAGE value="异常" />
     <MESSAGE value="泛型基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型基础" />
+    <MESSAGE value="泛型高级+集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="泛型高级+集合" />
   </component>
 </project>
