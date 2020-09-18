@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/streamDemo/StreamAPIDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/con2/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/map/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/setDemo/SetDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamAPIDemo">
+  <component name="RunManager" selected="Application.MapDemo">
     <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="club.banyuan.gen.Demo" />
       <module name="JavaCollection" />
@@ -85,12 +87,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.con.Demo" />
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.con2.LinkedListDemo" />
       <module name="JavaCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.con.*" />
+          <option name="PATTERN" value="club.banyuan.con2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.map.MapDemo" />
+      <module name="JavaCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.setDemo.SetDemo" />
+      <module name="JavaCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.setDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,32 +132,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="club.banyuan.streamDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCompareDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.prectice.TestCompareDemo" />
-      <module name="JavaGen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.banyuan.demo.prectice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.prectice.TestDistance" />
-      <module name="JavaGen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.banyuan.demo.prectice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +153,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
-      <item itemvalue="Application.TestCompareDemo" />
-      <item itemvalue="Application.TestDistance" />
-      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Demo (1)" />
       <item itemvalue="Application.StreamAPIDemo" />
+      <item itemvalue="Application.LinkedListDemo" />
+      <item itemvalue="Application.SetDemo" />
+      <item itemvalue="Application.MapDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapDemo" />
+        <item itemvalue="Application.SetDemo" />
+        <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.StreamAPIDemo" />
         <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.TestDistance" />
-        <item itemvalue="Application.TestCompareDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +188,7 @@
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
-      <workItem from="1600139108956" duration="58571000" />
+      <workItem from="1600139108956" duration="62378000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -335,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600399301257</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="lambdaStream">
+      <created>1600411950005</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600411950005</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +383,7 @@
     <MESSAGE value="异常" />
     <MESSAGE value="泛型基础" />
     <MESSAGE value="泛型高级+集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛型高级+集合" />
+    <MESSAGE value="lambdaStream" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambdaStream" />
   </component>
 </project>
