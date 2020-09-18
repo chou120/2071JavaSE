@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaException/src/club/banyuan/prectice/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/GenerityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/demo2/GenDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/demo3/Generitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/demo4/GenMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaOopCheck/src/Outer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaOopCheck/src/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaOopCheck/src/内部类复习.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/con/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/gen/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/CheckTrueOrFalse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/CompareDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/LeatherShoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/Shoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice/SportShoe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaGen/作业.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaException/src/club/banyuan/exception2/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaException/src/club/banyuan/exception2/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/demo4/GenMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/demo4/GenMethod.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -56,12 +59,14 @@
       <recent name="club.banyuan.overrideEquals" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="club.banyuan.demo.prectice" />
       <recent name="club.banyuan.interfaceDemo3" />
       <recent name="club.banyuan.abstractDemo" />
       <recent name="club.banyuan.eat" />
       <recent name="club.banyuan.modifier.bao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice" />
       <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
       <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstract" />
     </key>
@@ -78,13 +83,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
-    <configuration name="Demo2Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.exception2.Demo2Impl" />
-      <module name="JavaException" />
+  <component name="RunManager" selected="Application.Demo (1)">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.gen.Demo" />
+      <module name="JavaCollection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.exception2.*" />
+          <option name="PATTERN" value="club.banyuan.gen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.GenerityDemo" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.con.Demo" />
+      <module name="JavaCollection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.con.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCompareDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.prectice.TestCompareDemo" />
       <module name="JavaGen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.demo.*" />
+          <option name="PATTERN" value="club.banyuan.demo.prectice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,19 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="JavaOopCheck" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.demo2.Test" />
+    <configuration name="TestDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.prectice.TestDistance" />
       <module name="JavaGen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.demo.demo2.*" />
+          <option name="PATTERN" value="club.banyuan.demo.prectice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.exception2.Test" />
-      <module name="JavaException" />
+    <configuration name="TestShoe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.demo.prectice.TestShoe" />
+      <module name="JavaGen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.exception2.*" />
+          <option name="PATTERN" value="club.banyuan.demo.prectice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,19 +163,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
-      <item itemvalue="Application.Demo2Impl" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.GenerityDemo" />
-      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.TestShoe" />
+      <item itemvalue="Application.TestCompareDemo" />
+      <item itemvalue="Application.TestDistance" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Demo (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.GenerityDemo" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Demo2Impl" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.TestDistance" />
+        <item itemvalue="Application.TestCompareDemo" />
+        <item itemvalue="Application.TestShoe" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +198,7 @@
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
-      <workItem from="1600139108956" duration="40960000" />
+      <workItem from="1600139108956" duration="53395000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -322,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600245616128</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="泛型基础">
+      <created>1600328663672</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600328663672</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +377,7 @@
     <MESSAGE value="lambda3" />
     <MESSAGE value="枚举类" />
     <MESSAGE value="异常" />
-    <option name="LAST_COMMIT_MESSAGE" value="异常" />
+    <MESSAGE value="泛型基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="泛型基础" />
   </component>
 </project>

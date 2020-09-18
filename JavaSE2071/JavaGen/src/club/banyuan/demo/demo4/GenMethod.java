@@ -27,7 +27,7 @@ public class GenMethod {
     }
   }
 
-  //在manin方法代码如下
+  //在main方法代码如下
   public static void main(String[] args) {
 
     Test<String> d = new Test<String>();
@@ -37,10 +37,7 @@ public class GenMethod {
     Test<Integer> e = new Test<Integer>();
     e.show(2);
     e.print(new Integer(5));
-
-
   }
-
 }
 class Test {
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaCollection/JavaCollection.iml" filepath="$PROJECT_DIR$/JavaCollection/JavaCollection.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaEnum/JavaEnum.iml" filepath="$PROJECT_DIR$/JavaEnum/JavaEnum.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaException/JavaException.iml" filepath="$PROJECT_DIR$/JavaException/JavaException.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaGen/JavaGen.iml" filepath="$PROJECT_DIR$/JavaGen/JavaGen.iml" />
