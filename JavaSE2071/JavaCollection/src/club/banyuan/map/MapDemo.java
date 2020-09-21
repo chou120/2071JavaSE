@@ -55,6 +55,12 @@ public class MapDemo {
      *  TreeSet
      *  TreeMap
      *
+     *     数组用来存键的地址
+     *      |
+     *  K       |
+     *      |
+     *  V       |
+     *     链表用来存值的地址
      */
 
 

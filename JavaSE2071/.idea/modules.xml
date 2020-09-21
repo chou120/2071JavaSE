@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaLambda/JavaLambda.iml" filepath="$PROJECT_DIR$/JavaLambda/JavaLambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaOopCheck/JavaOopCheck.iml" filepath="$PROJECT_DIR$/JavaOopCheck/JavaOopCheck.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaSE2071.iml" filepath="$PROJECT_DIR$/.idea/JavaSE2071.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaThread/JavaThread.iml" filepath="$PROJECT_DIR$/JavaThread/JavaThread.iml" />
     </modules>
   </component>
 </project>

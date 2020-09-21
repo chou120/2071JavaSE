@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/con2/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/map/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/setDemo/SetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thead1/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thead1/MyThead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread2/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread3/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread4/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread5/ThreadStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread6/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/map/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCollection/src/club/banyuan/map/MapDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,13 +79,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapDemo">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.gen.Demo" />
-      <module name="JavaCollection" />
+  <component name="RunManager" selected="Application.TestMyThead">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.thread3.Test" />
+      <module name="JavaThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.gen.*" />
+          <option name="PATTERN" value="club.banyuan.thread3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.con2.LinkedListDemo" />
-      <module name="JavaCollection" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.thread4.Test" />
+      <module name="JavaThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.con2.*" />
+          <option name="PATTERN" value="club.banyuan.thread4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.map.MapDemo" />
-      <module name="JavaCollection" />
+    <configuration name="TestMyThead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.thread6.TestMyThead" />
+      <module name="JavaThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.map.*" />
+          <option name="PATTERN" value="club.banyuan.thread6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.setDemo.SetDemo" />
-      <module name="JavaCollection" />
+    <configuration name="TestMyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.thread2.TestMyThread" />
+      <module name="JavaThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.setDemo.*" />
+          <option name="PATTERN" value="club.banyuan.thread2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.streamDemo.StreamAPIDemo" />
-      <module name="JavaCollection" />
+    <configuration name="ThreadStopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.thread5.ThreadStopDemo" />
+      <module name="JavaThread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.streamDemo.*" />
+          <option name="PATTERN" value="club.banyuan.thread5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +159,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
-      <item itemvalue="Application.Demo (1)" />
-      <item itemvalue="Application.StreamAPIDemo" />
-      <item itemvalue="Application.LinkedListDemo" />
-      <item itemvalue="Application.SetDemo" />
-      <item itemvalue="Application.MapDemo" />
+      <item itemvalue="Application.TestMyThread" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.ThreadStopDemo" />
+      <item itemvalue="Application.TestMyThead" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapDemo" />
-        <item itemvalue="Application.SetDemo" />
-        <item itemvalue="Application.LinkedListDemo" />
-        <item itemvalue="Application.StreamAPIDemo" />
-        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.TestMyThead" />
+        <item itemvalue="Application.ThreadStopDemo" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.TestMyThread" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +194,7 @@
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
-      <workItem from="1600139108956" duration="62378000" />
+      <workItem from="1600139108956" duration="71694000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -344,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600411950005</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="集合">
+      <created>1600416534296</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600416534297</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,6 +397,7 @@
     <MESSAGE value="泛型基础" />
     <MESSAGE value="泛型高级+集合" />
     <MESSAGE value="lambdaStream" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambdaStream" />
+    <MESSAGE value="集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="集合" />
   </component>
 </project>
