@@ -32,7 +32,6 @@ public class CallPhonePerson implements  Runnable{
                }
              }
            }
-
        } catch (Exception e) {
          e.printStackTrace();
        }

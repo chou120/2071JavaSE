@@ -14,20 +14,14 @@ public class PhonePersonA extends Thread {
     this.callPhonePerson = callPhonePerson;
     // this.callPhonePerson.getPerson().setFlag(flag);
   }
-
   @Override
   public void run() {
     while (true) {
-
       try {
         if (callPhonePerson.getPerson().isFlag()) {
-
           synchronized (callPhonePerson.getPerson()) {
-
             callPhonePerson.getPerson().notify();//唤醒正在休眠的线程
-
             System.out.println(getName() + "正在拨号...");
-
             callPhonePerson.getPerson().setFlag(false);
             System.out.println(callPhonePerson.getPerson().getName()
                 + "正在接入" + getName() + "的电话...");
