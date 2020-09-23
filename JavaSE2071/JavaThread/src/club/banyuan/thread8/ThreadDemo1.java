@@ -20,23 +20,26 @@ public class ThreadDemo1  extends  Thread{
   }
   @Override
   public void run() {
-    try {
-      if(Tool.lock.tryLock(3000, TimeUnit.MILLISECONDS)) {  //线程尝试获取锁
-        try {
-          System.out.println(getName() + "进来了...获取了当前锁...");
-          Thread.sleep(2000);
-        } catch (InterruptedException e) {
-          e.printStackTrace();
-        } finally {
-          System.out.println(getName()+"释放了锁");
-          Tool.lock.unlock();//主动释放锁
+   // while(true){
+      try {
+        if(Tool.lock.tryLock(9000, TimeUnit.MILLISECONDS)) {  //线程尝试获取锁
+          try {
+            System.out.println(getName() + "进来了...获取了当前锁...");
+            Thread.sleep(2000);
+          } catch (InterruptedException e) {
+            e.printStackTrace();
+          } finally {
+            System.out.println(getName()+"释放了锁");
+            Tool.lock.unlock();//主动释放锁
+          }
+        }else{
+          System.out.println(getName()+"没有获取到锁...被其他线程占用了...."+Tool.lock.tryLock());
+          //Thread.sleep(2000);
         }
-      }else{
-        System.out.println(getName()+"没有获取到锁...被其他线程占用了...."+Tool.lock.tryLock());
+      } catch (InterruptedException e) {
+        e.printStackTrace();
       }
-    } catch (InterruptedException e) {
-      e.printStackTrace();
-    }
+    //}
   }
 }
 
