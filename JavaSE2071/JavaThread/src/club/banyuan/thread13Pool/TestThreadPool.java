@@ -21,7 +21,6 @@ public class TestThreadPool {
     }
     return list;
   }
-
   public static void main(String[] args) {
     ExecutorService executorService = Executors.newFixedThreadPool(6);
     List<String> init = init();
@@ -39,6 +38,7 @@ public class TestThreadPool {
       }
       lists.add(list);
     }
+
     for (int i = 0; i <10; i++) {
       Future submit = executorService.submit(new MyCallable(lists,tool));//启动线程池的线程...
       try {

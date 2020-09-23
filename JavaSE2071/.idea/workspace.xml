@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread11/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread12/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread13Pool/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread13Pool/TestThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaIO_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaIO.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/JavaIO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/file/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaSE2071.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSE2071.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread8/ThreadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread8/ThreadDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread13Pool/TestThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread13Pool/TestThreadPool.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +47,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaIO/src/club/banyuan" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2720588" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="club.banyuan.overrideEquals" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaIO" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="club.banyuan.thread10" />
@@ -58,6 +69,7 @@
       <recent name="club.banyuan.abstractDemo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaIO/src/club/banyuan" />
       <recent name="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice" />
       <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
       <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstract" />
@@ -75,7 +87,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestThreadPool">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.file.Demo" />
+      <module name="JavaIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="club.banyuan.thread13Pool.TestThreadPool" />
       <module name="JavaThread" />
@@ -104,12 +129,24 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
       <item itemvalue="Application.TestThreadPool" />
+      <item itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.TestThreadPool" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -130,7 +167,7 @@
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
-      <workItem from="1600139108956" duration="104964000" />
+      <workItem from="1600139108956" duration="108945000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -314,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600761929458</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="线程池">
+      <created>1600844326065</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1600844326066</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,6 +402,7 @@
     <MESSAGE value="多线程1" />
     <MESSAGE value="多线程3课堂作业" />
     <MESSAGE value="多线程4生产者和消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="多线程4生产者和消费者" />
+    <MESSAGE value="线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程池" />
   </component>
 </project>

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaEnum/JavaEnum.iml" filepath="$PROJECT_DIR$/JavaEnum/JavaEnum.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaException/JavaException.iml" filepath="$PROJECT_DIR$/JavaException/JavaException.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaGen/JavaGen.iml" filepath="$PROJECT_DIR$/JavaGen/JavaGen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaIO/JavaIO.iml" filepath="$PROJECT_DIR$/JavaIO/JavaIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaInnerClass/JavaInnerClass.iml" filepath="$PROJECT_DIR$/JavaInnerClass/JavaInnerClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaInnerOver/JavaInnerOver.iml" filepath="$PROJECT_DIR$/JavaInnerOver/JavaInnerOver.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLambda/JavaLambda.iml" filepath="$PROJECT_DIR$/JavaLambda/JavaLambda.iml" />
