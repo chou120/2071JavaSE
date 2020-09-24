@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Java2071:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaIO_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaIO.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/JavaIO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/file/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java2071_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hutool_all_4_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/TestCVS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJar/TestJar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJar/src/club/banyuan/cacth/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJar/src/club/banyuan/demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hutool-all-4.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javacsv.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaSE2071.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSE2071.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaIO_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaIO.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread13Pool/TestThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaThread/src/club/banyuan/thread13Pool/TestThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/JavaIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaIO/JavaIO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Demo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +58,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaIO/src/club/banyuan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2720588" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -58,8 +69,12 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="club.banyuan.overrideEquals" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/JavaIO" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/JavaIO/src/club/banyuan" />
+      <recent name="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice" />
+      <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
+      <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstract" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="club.banyuan.thread10" />
@@ -68,11 +83,9 @@
       <recent name="club.banyuan.interfaceDemo3" />
       <recent name="club.banyuan.abstractDemo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/JavaIO/src/club/banyuan" />
-      <recent name="$PROJECT_DIR$/JavaGen/src/club/banyuan/demo/prectice" />
-      <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstractDemo" />
-      <recent name="$PROJECT_DIR$/JavaAbstract/src/club/banyuan/abstract" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/JavaIO" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,13 +100,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.TestCVS">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.file.Demo" />
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.IO.Demo" />
       <module name="JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.file.*" />
+          <option name="PATTERN" value="club.banyuan.IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.thread13Pool.TestThreadPool" />
-      <module name="JavaThread" />
+    <configuration name="TestCVS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.IO.TestCVS" />
+      <module name="JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.thread13Pool.*" />
+          <option name="PATTERN" value="club.banyuan.IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.IO.TestStudent" />
+      <module name="JavaIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,15 +152,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.5.49" />
-      <item itemvalue="Application.TestThreadPool" />
-      <item itemvalue="Application.Demo" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCVS" />
+        <item itemvalue="Application.TestStudent" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.TestThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +189,8 @@
       <workItem from="1599636470864" duration="29305000" />
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
-      <workItem from="1600139108956" duration="108945000" />
+      <workItem from="1600139108956" duration="124312000" />
+      <workItem from="1600913742082" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -358,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600844326066</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="文件1">
+      <created>1600848252252</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600848252252</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="对象更新" />
     <MESSAGE value="封装练习" />
     <MESSAGE value="构造器和静态" />
@@ -403,6 +432,7 @@
     <MESSAGE value="多线程3课堂作业" />
     <MESSAGE value="多线程4生产者和消费者" />
     <MESSAGE value="线程池" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程池" />
+    <MESSAGE value="文件1" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件1" />
   </component>
 </project>

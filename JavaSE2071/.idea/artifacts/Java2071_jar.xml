@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java2071:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java2071_jar</output-path>
+    <root id="archive" name="Java2071.jar">
+      <element id="module-output" name="Java2071" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/hutool-all-4.0.11.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
