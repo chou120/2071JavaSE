@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Students><student id="897"><stuId>9527</stuId><stuName>张三</stuName><stuAddress>栖霞区</stuAddress></student>
+  <student id="123"><stuId>9528</stuId><stuName>李四</stuName><stuAddress>下水道</stuAddress></student>
+  <teacher><stuId>98</stuId><stuName>李四98</stuName><stuAddress>下水98道</stuAddress></teacher>
+  <teacher><stuId>90</stuId><stuName>李四98</stuName><stuAddress>下水98道</stuAddress></teacher>
+  <teacher><stuId>99</stuId><stuName>李四98</stuName><stuAddress>下水98道</stuAddress></teacher>
+</Students>

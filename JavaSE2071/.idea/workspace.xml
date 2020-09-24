@@ -7,26 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29f11027-f1b3-4a66-904a-5448faf4529e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Java2071_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hutool_all_4_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/TestCVS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJar/TestJar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJar/src/club/banyuan/cacth/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestJar/src/club/banyuan/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hutool-all-4.0.11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javacsv.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javacsv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/xml/CreateHTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/xml/CreateXMLDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/xml/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIO/teach.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/JavaSE2071.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaSE2071.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaIO_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaIO.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaIO/JavaIO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaIO/JavaIO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/TestCVS.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaIO/src/club/banyuan/IO/TestCVS.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +49,7 @@
   <component name="ProjectId" id="1gywAMJqxWpiJ4HjyfDbJ4S2jZs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -100,13 +95,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCVS">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.banyuan.IO.Demo" />
+  <component name="RunManager" selected="Application.CreateHTML">
+    <configuration name="CreateHTML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.xml.CreateHTML" />
       <module name="JavaIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.banyuan.IO.*" />
+          <option name="PATTERN" value="club.banyuan.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateXMLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.xml.CreateXMLDemo" />
+      <module name="JavaIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.banyuan.xml.Demo" />
+      <module name="JavaIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.banyuan.xml.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,9 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreateHTML" />
+        <item itemvalue="Application.CreateXMLDemo" />
+        <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.TestCVS" />
         <item itemvalue="Application.TestStudent" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +213,7 @@
       <workItem from="1599812869327" duration="199000" />
       <workItem from="1599813083411" duration="17320000" />
       <workItem from="1600139108956" duration="124312000" />
-      <workItem from="1600913742082" duration="3478000" />
+      <workItem from="1600913742082" duration="11880000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599190271937</created>
@@ -388,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600848252252</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="文件2">
+      <created>1600917658477</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1600917658477</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="对象更新" />
     <MESSAGE value="封装练习" />
     <MESSAGE value="构造器和静态" />
     <MESSAGE value="常用类的使用" />
@@ -433,6 +462,7 @@
     <MESSAGE value="多线程4生产者和消费者" />
     <MESSAGE value="线程池" />
     <MESSAGE value="文件1" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件1" />
+    <MESSAGE value="文件2" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件2" />
   </component>
 </project>

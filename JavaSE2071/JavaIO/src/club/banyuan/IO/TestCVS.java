@@ -14,7 +14,6 @@ import java.nio.charset.StandardCharsets;
  */
 public class TestCVS {
 
-
   public static void main(String[] args) throws IOException {
     File file = new File("JavaIO/java.csv");
     if(!file.exists()){
